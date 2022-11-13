@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    padding: 20px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    animation-name: go;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes go{
+    0%{
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+}
+    10%{
+     transform: translate(700px, 0);
+     -webkit-transform: translate(700px, 0);
+     -moz-transform: translate(700px, 0);
+     -ms-transform: translate(700px, 0);
+     -o-transform: translate(700px, 0);
+}
+    20%{
+        transform: translate(700px, 500px);
+        -webkit-transform: translate(700px, 500px);
+        -moz-transform: translate(700px, 500px);
+        -ms-transform: translate(700px, 500px);
+        -o-transform: translate(700px, 500px);
+}
+30%{
+    transform: translate(2000px, 500px);
+    -webkit-transform: translate(2000px, 500px);
+    -moz-transform: translate(2000px, 500px);
+    -ms-transform: translate(2000px, 500px);
+    -o-transform: translate(2000px, 500px);
+}
+}
